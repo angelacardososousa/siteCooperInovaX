@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    max-width: 100vw;
+    background-color: white;
+    font-family: Raleway;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #05330b;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+p {
+    color: black;
+}
+
+section {
+    margin: 50px auto;
+}
+
+.banner {
+    background-image: url('./assets/images/plantMilho1.png');
+    opacity: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 60px;
+    border-bottom: 1px solid #33A8DB;
+}
+
+.banner-content {
+    width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+.logo {
+    width: 268px;
+    height: 268px;
+    background-color: white
+    ;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    object-fit: contain;
+}
+
+.banner h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    background: -webkit-linear-gradient(white, #06611d);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.banner p {
+    font-size: 1.5rem;
+    margin: 0 16px 24px;
+}
+
+.banner button {
+    padding: 16px 32px;
+    margin-top: 0;
+    color: rgb(4, 44, 4);
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background-color: white;
+    border-image: linear-gradient(#012501, #097725);
+    border-image-slice: 10;
+}
+
+#course-content {
+    max-width: 800px;
+    text-align: center;
+}
+
+#course-content .modules-list {
+    margin: 24px 0;
+}
+
+#course-content .module {
+    color: white;
+    width: 700px;
+    margin: 0 auto 14px;
+    border: 1px solid #35fa0e;
+    background-color: #118f3b;
+    padding: 16px;
+    border-radius: 100px;
+    box-shadow: 1px 1px 8px w#f87a04;
+}
+
+#course-content span {
+    color: white;
+    font-weight: bold;
+}
+
+#transform-world {
+    width: 500px;
+    background-size: cover;
+    background-image: url("./assets/images/agriFamiliar.png");
+    background-attachment: fixed;
+    border-top: 1px solid #33a8db80;
+    border-bottom: 1px solid #33a8db80;
+    padding: 200px;
+}
+
+#transform-world p {
+    color: white;
+    font-weight: 900;
+    font-size: 3.5rem;
+    text-transform: lowercase;
+    max-width: 350px;
+    text-shadow: 5px 5px 1px rgb(49, 216, 15);
+}
+
+#professional-challenges {
+    text-align: center;
+    max-width: auto;
+}
+
+#professional-challenges img {
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    max-width: 100%;
+    display: block;
+}
+
+
+footer {
+    padding: 10px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(72, 248, 49, 0), rgba(15, 163, 52, 0.2));
+    border-top: 1px solid #0d9409;
+    
+}
+
+footer .dio-logo {
+    width: 100px;
+}
+  
+footer a {
+    color: #10c25a;
+    font-weight: bold;
+    text-decoration: none;
+}
